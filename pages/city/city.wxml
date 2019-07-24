@@ -1,0 +1,102 @@
+<!--pages/city/city.wxml-->
+<view class='content_city'>
+  <view class='content_city_left'>
+    <view class='nothing'></view>
+    <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">东北地区</view>
+    <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">华东地区</view>
+    <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav">华北地区</view>
+    <view class="{{currentTab==3?'select':'default'}}" data-current="3" bindtap="switchNav">华中地区</view>
+    <view class="{{currentTab==4?'select':'default'}}" data-current="4" bindtap="switchNav">华南地区</view>
+    <view class="{{currentTab==5?'select':'default'}}" data-current="5" bindtap="switchNav">西南地区</view>
+    <view class="{{currentTab==6?'select':'default'}}" data-current="6" bindtap="switchNav">西北地区</view>
+  </view>
+  <view class='content_city_right'>
+    <swiper easing-function="default" vertical='true' current="{{currentTab}}" class="swiper-box" style="height:655px;">
+    
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs}}" wx:key="key">
+            <view class='middle_nr_p' id="{{index}}" data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail'>
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs2}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs3}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs4}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs5}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs6}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='rm_city_one'>
+          <block wx:for="{{navs7}}" wx:key="key">
+            <view class='middle_nr_p' data-post-name="{{item.name}}" data-post-id="{{item.cid}}" catchtap='onTapToDetail' id="{{index}}">
+              <view>
+                <image src="{{item.img}}" style="width:80px;height:65px;" class='rm_city_nr'></image>
+              </view>
+              <view class='rm_city_nr_text'>{{item.name}}</view>
+            </view>
+          </block>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

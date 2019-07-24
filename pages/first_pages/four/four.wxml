@@ -1,0 +1,37 @@
+<!--pages/first_pages/two/two.wxml-->
+<view class='top'>
+  <view class='jiacu_t'>夜行成都</view>
+  <image src="/images/logo/first_page_img/fifth.jpg"></image>
+</view>
+<view class='bottom'>
+  <view >曾经的成都有句俗话:“穷东门，富南门”,成都南面一直都是成都的富人聚居区，成都东面这边以前相对其余三面是比较穷，不过如今的成都城市经济发展很快，环境也得到了改善。</view>
+  <view class='jiacu'>洪河半边街夜市</view>
+  <view>说起来，半边街美食城的改革变迁之路也是漫长。当时这块地上的学校还叫“川师文理学院”，秉着“一个学校养活一群人”的真理，各路小吃纷聚此地，拉开一场旷日持久的拉锯战。摊贩们由最初游击战的摆摊设点，到后来进入政府组织修建的大棚，到三年前一百多户美食摊位入驻到综合市场内部，终于开始了稳定绵延的生财之路。</view>
+  <image src="/images/logo/first_page_img/4-1.jpg" class='img'></image>
+
+  <view class='jiacu'>鲷鱼烧</view>
+  <view>来洪河夜市，必须吃的肯定是这家很神秘的日料店，老板是一个普通话讲的很好的日本人</view>
+  <view>店里有许多动漫周边和一些明星杂志海报</view>
+  <view>当然！最重要的还是——招牌鲷鱼烧</view>
+  <view>他家店里最实惠的就是红豆鲷鱼烧，红豆沙是老板自己手工磨的，非常好吃</view>
+  <image src="/images/logo/first_page_img/4-2.jpg" class='img'></image>
+
+  <view class='jiacu'>烤五花肉</view>
+  <image src="/images/logo/first_page_img/4-7.jpg" class='img'></image>
+  <view>这家特色烤五花味道比较重口，吃不得辣和过多香料的朋友还是不轻易尝试，味道其实一般
+价格也就如图上所见，算是十分亲民了！</view>
+  <image src="/images/logo/first_page_img/4-6.jpg" class='img'></image>
+
+  <view class='jiacu'>不一样的关东煮</view>
+  <image src="/images/logo/first_page_img/4-8.jpg" class='img'></image>
+  <view>温馨提示：猪皮味道不错就是有点咸，提醒一下可以让老板少放盐</view>
+
+  <view class='jiacu'>串串香</view>
+  <image src="/images/logo/first_page_img/4-9.jpg" class='img'></image>
+  <view>对于串串香，我的成都入门级店是袁记串串香，的确味道不错，但是在吃过一些local点的店后，发现袁记的味道也就是基础款。</view>
+
+  <view class='jiacu'>老妈蹄花</view>
+  <image src="/images/logo/first_page_img/4-10.jpg" class='img'></image>
+  <view>现在的所有老妈蹄花都不是最早的那家，那家在某年着火后就没再开，后来的都不是那家的后续，但这家念圣经的是最像那家的店。</view>
+
+</view>

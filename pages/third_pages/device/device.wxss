@@ -1,0 +1,40 @@
+/* pages/third_pages/device/device.wxss */
+
+.bottom{
+  background-color: #f9f9f9f6; 
+  /* background-color: pink; */
+  /* padding: 15px; */
+  height: 100%;
+}
+.bottom_detail{
+  margin-left: 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 290px;
+  border-radius: 10px;
+}
+.ls{
+  display: flex;
+  flex-direction: row;
+}
+.ls_left{
+  margin-left: 5px;
+  width:150px;
+}
+.ls_right{
+  width: 130px;
+  text-align: right;
+}
+.hr{
+  border: 1px solid #f0f0f0;
+  opacity: 0.2;
+}
+.unimportant{
+  height: 20px;
+  background-color: #f9f9f9f6; 
+}
+page{
+  height: 100%;
+}

@@ -1,0 +1,45 @@
+<!--pages/first_pages/two/two.wxml-->
+<view class='top'>
+  <image src="/images/logo/first_page_img/third.jpg"></image>
+</view>
+<view class='bottom'>
+  <view>对于天津这座城市，是我待了四年的城市，有可能呆更久的地方，独特的情怀，独特的城市，所以我想和小可爱们分享它的魅力。</view>
+  <view class='jiacu'>关于交通</view>
+  <view>天津公交是比较发达了，只要你想去的犄角旮旯，都能去到，现在支付宝也可以乘坐，但是有的郊线还是需要零钱的哦，所以建议小可爱们还是准备一些小毛爷爷为好。</view>
+<image src="/images/logo/first_page_img/3-1.jpg"  class='img'></image>
+  <view class='jiacu'>关于美食</view>
+  <view>天津狗不理包子</view>
+  <view>天津煎饼果子</view>
+  <image src="/images/logo/first_page_img/3-3.jpg"  class='img'></image>
+  <view>天津猫不闻饺子</view>
+  <view>天津大宇蘸料</view>
+  <view>天津十八街麻花</view>
+<image src="/images/logo/first_page_img/3-4.jpg" class='img'></image>
+  <view>天津耳朵眼炸糕</view>
+  <view>天津锅ga巴菜</view>
+  <view>天津捞面</view>
+  <view> 天津妈妈牌虾酱</view>
+  <view class='jiacu'>嗨玩天津</view>
+  <view>DAY 1 :  天津站—世纪钟—解放桥—大沽桥—意大利风情街—天津之眼</view>
+  <view>DAY 1 :  DAY 2   五大道—瓷房子—古文化街—天津大学 南开大学—滨江道—西开教堂—夜游海河</view>
+  <image src="/images/logo/first_page_img/3-6.jpg" class='img'></image>
+  <view class='jiacu'>解放桥</view>
+<image src="/images/logo/first_page_img/3-7.jpg" class='img'></image>
+  <view>解放桥连接河北区和和平区，就在天津站的右手边，它还是一座可以开启的铁质桥哦，如果有小可爱幸运的话就可以看到的，程哥我是看到过的，现在还保存着当时它开启的小视频呢，嘻嘻。</view>
+  <view class='jiacu'>大沽桥</view>
+<image src="/images/logo/first_page_img/3-8.jpg" class='img'></image>
+  <view>看到解放桥就可以看到大沽大哥了，一个造型巨高大上的大哥呢。</view>
+  <view class='jiacu'>意大利风情街</view>
+<image src="/images/logo/first_page_img/3-9.jpg" class='img'></image>
+  <view>意大利风情街位置在河北区光复道上，免费的哦，地铁2号线建国道站下车。它是原意大利的租界处，洋人们在这里修建了许多各种风格的小洋楼，爱拍照的小可爱们带好相机哦</view>
+  <view class='jiacu'>滨江道</view>
+  <image src="/images/logo/first_page_img/3-10.jpg" class='img'></image>
+  <view>滨江道位置在和平区南京路上，地铁营口道站下就可以了，它是天津最繁华的商业街，吃喝玩乐是没毛病的。在滨江道对面就是天津著名的基督教教堂--西开教堂，如果有教堂活动小可爱就可以进去观赏，但是里面不可以拍照的哦，教堂外面是可以的，拍照发票圈是很美哒。</view>
+  <view class='jiacu'>天津海昌极地海洋公园</view>
+  <image src="/images/logo/first_page_img/3-11.jpg" class='img'></image>
+  <view>天津海昌极地海洋公园位置在滨海新区响螺湾商务区，地铁泰达站下就可以，之后打车同样是起步价10RMB左右就可以到的，开放时间是每天的9:00-16:30，票价在150RMB左右，海洋世界聚集全世界各种可爱的海洋宝宝，强力安利小可爱们哦。</view>
+  <view class='jiacu'>滨海图书馆</view>
+  <image src="/images/logo/first_page_img/3-12.jpg" class='img'></image>
+  <view>滨海图书馆位置在滨海新区海洋高新技术产园庐山道，地铁坐9号线洋货市场站下，然后可以打车过去，10RMB就可以到哦，开放时间10:00--21:00，周一上午闭馆，免费的呢，嘻嘻，这个图书馆已经成为天津的网红图书馆了，记得拍照呢。</view>
+
+</view>

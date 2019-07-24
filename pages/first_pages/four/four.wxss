@@ -1,0 +1,29 @@
+/* pages/first_pages/two/two.wxss */
+.bottom{
+  width: 280px;
+  font-family: 楷体;
+  line-height: 1.5em;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: -12px;
+  border-radius: 10px;
+  
+}
+.jiacu_t{
+  text-align: center;
+  font-family: 楷体;
+}
+.jiacu,.jiacu_t{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.img{
+  margin-left: -20px;
+  border-radius: 12px;
+  
+}
+.top image{
+  border-radius: 10px;
+}

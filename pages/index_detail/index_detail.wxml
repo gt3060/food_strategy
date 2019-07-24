@@ -1,0 +1,24 @@
+<!--pages/index_detail/index_detail.wxml-->
+<view class='food_content' wx:for="{{gt}}" wx:key="key">
+  <view class='content_top' catchtap='food_intro'>
+    <view class='food_pic'>
+      <image src='{{item.f_pic}}' class='p_pic'></image>
+    </view>
+    <view class='food_name'>{{item.f_name}}</view>
+  </view>
+  <view class='btn'>
+    <view class='shoucang' catchtap='onCollectionTap'>
+      <image wx:if="{{!collectionStatus}}" class='ll' src='/images/logo/collect.png'></image>
+      <image wx:else src='/images/logo/collected.png' class='ll'></image>
+      <text>收藏</text>
+    </view>
+    <view class='dianzan' catchtap='onzanTap'>
+      <image wx:if="{{!zanStatus}}" class='ll' src='/images/logo/zan.png'></image>
+      <image wx:else src='/images/logo/zaned.png' class='ll'></image>
+      <text>点赞</text>
+    </view>
+  </view>
+  <view class='food_intro1'>简介</view>
+  <view class='hr'></view>
+  <view class='food_intro'>{{item.f_intro}}</view>
+</view>

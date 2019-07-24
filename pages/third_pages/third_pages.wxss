@@ -1,0 +1,118 @@
+/* pages/third_pages/third_pages.wxss */
+.login{
+  width: 100%;
+  height: 180rpx;
+  background: #e86700;
+  padding-top: 20px;
+
+}
+.btn_login{
+  width: 100px;
+  height: 50px;
+  margin-left: 30%;
+}
+.set{
+  display: flex;
+  flex-direction: row;
+}
+.bbb{
+  width: 30px;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 13px;
+}
+.login_first{
+  text-align: center;
+  color:white;
+  font-size: 40px;
+  font-family: 楷体;
+
+}
+.hover_style{
+  color:#f0f0f0;
+}
+.userinfo {
+  margin-left: 25px;
+  background-color:#e86700;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  display: block;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: white;
+  font-family: "楷体" ;
+  margin-left: 12px;
+  font-size: 22px;
+
+}
+.nick{
+  margin-top: 25px;
+}
+.coll_title{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.coll_title_text{
+  font-family: 楷体;
+  margin-left: 8px;
+}
+.coll_title_img{
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+.select{
+  font-size: 12px;
+  color:#e8670b;
+  width: 50%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid #e8670b;
+
+}
+.default{
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.classify{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.content_food{
+  margin-top:10px;
+  margin-left: 15px;
+  height:90px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.food_pic{
+  width:40%;
+  border-radius: 10px;
+}
+.p_pic{
+  width:100%;
+  height: 90px;
+  border-radius: 10px;
+}
+.food_name{
+  width: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

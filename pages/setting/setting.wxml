@@ -1,0 +1,28 @@
+<view class='bottom'>
+  <block wx:for="{{self}}" wx:key="key">
+    <view class='ls'>
+      <view class='bottom_detail' catchtap="{{item.tap}}">
+        <image src="{{item.icon}}" class='icon'> </image>
+        <text class='title_border'>{{item.title}}</text>
+      </view>
+      <view class='dayu'>></view>
+    </view>
+    <view class='hr'></view>
+  </block>
+</view>
+<view class='bottom'>
+  <block wx:for="{{setting}}" wx:key="key">
+    <view class='ls'>
+      <view class='bottom_detail' catchtap="{{item.tap}}">
+        <image src="{{item.icon}}" class='icon'> </image>
+        <text class='title_border'>{{item.title}}</text>
+      </view>
+      <view class='dayu'>></view>
+    </view>
+    <view class='hr'></view>
+  </block>
+</view>
+<view>
+  <slider name="slider" bindchange='sliderbindchange' show-value catchtap='screenLight' class='slider'></slider>
+</view>
+<modal title="指南针" confirm-text="确定" no-cancel hidden="{{compassHidden}}" bindconfirm="hideCompass" confirm-color="#1f4ba5">当前方向：偏北{{compassVal}}</modal>

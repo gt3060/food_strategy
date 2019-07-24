@@ -1,0 +1,37 @@
+
+.bottom{
+  background-color: #f9f9f9f6; 
+  padding: 15px;
+  padding-bottom: -20px;
+}
+.bottom_detail{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  
+}
+.title_border{
+  margin-left: 10px;
+}
+.icon{
+  width:20px;
+  height: 20px;
+}
+.hr{
+  border: 1px solid #f0f0f0;
+  opacity: 0.2;
+}
+.ls{
+  display: flex;
+  flex-direction: row;
+}
+.dayu{
+  color: #a09f9f;
+  margin-top: 7px;
+}
+.slider{
+  margin-top: -8px;
+}
+

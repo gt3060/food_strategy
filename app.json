@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/first_pages/first_pages",
+    "pages/third_pages/third_pages",
+    "pages/city/city",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/third_pages/device/device",
+    "pages/index_detail/index_detail",
+    "pages/index_detail_place/index_detail_place",
+    "pages/first_pages/one/one",
+    "pages/first_pages/two/two",
+    "pages/first_pages/three/three",
+    "pages/first_pages/four/four",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e8670b",
+    "navigationBarTitleText": "美食攻略",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#224333",
+    "selectedColor": "#000000",
+    "position": "bottom",
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/logo/home.png",
+        "selectedIconPath": "/images/logo/home_select.png"
+      },
+      {
+        "pagePath": "pages/third_pages/third_pages",
+        "text": "我的",
+        "iconPath": "/images/logo/user.png",
+        "selectedIconPath": "/images/logo/user_select.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置将用于小程序测试"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

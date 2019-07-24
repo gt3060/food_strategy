@@ -1,0 +1,51 @@
+<!--pages/index_detail/index_detail.wxml-->
+<view class='food_content' wx:for="{{gt}}" wx:key="key">
+  <view class='content_top' catchtap='food_intro'>
+    <view class='food_pic'>
+      <image src='{{item.p_pic}}' class='p_pic'></image>
+    </view>
+
+  </view>
+  <view class='sum'>
+    <view class='food_name'>
+      <image src='/images/logo/name.png' class='icon'></image>
+      <text class='icon_text'>{{item.p_name}}</text>
+    </view>
+    <view class='food_price' catchtap='showMap' data-post-add="{{item.p_place}}">
+      <image src='/images/logo/place.png' class='icon'></image>
+      <text class='icon_text'>{{item.p_place}}</text>
+    </view>
+    <view class='food_price'>
+      <image src='/images/logo/time.png' class='icon'></image>
+      <text class='icon_text'>{{item.p_time}}</text>
+    </view>
+    <view class='food_price'>
+      <image src='/images/logo/money.png' class='icon'></image>
+      <text class='icon_text'>￥{{item.p_money}}</text>
+    </view>
+
+
+<map id="myMap" markers="{{markers}}" style="width:100%;height:150px;" longitude="{{poi.longitude}}" latitude="{{poi.latitude}}" scale='16' show-location></map>
+
+
+
+  </view>
+  <view class='btn'>
+    <view class='shoucang' catchtap='onCollectionTap'>
+      <image wx:if="{{!collectionStatus}}" class='ll' src='/images/logo/collect.png'></image>
+      <image wx:else src='/images/logo/collected.png' class='ll'></image>
+      <text>收藏</text>
+    </view>
+    <view class='dianzan' catchtap='onzanTap'>
+      <image wx:if="{{!zanStatus}}" class='ll' src='/images/logo/zan.png'></image>
+      <image wx:else src='/images/logo/zaned.png' class='ll'></image>
+      <text>点赞</text>
+    </view>
+  </view>
+
+
+
+  <view class='food_intro1'>简介</view>
+  <view class='hr'></view>
+  <view class='food_intro'>{{item.p_intro}}</view>
+</view>

@@ -1,0 +1,33 @@
+<!--pages/first_pages/two/two.wxml-->
+<view class='top'>
+  <image src="/images/logo/first_page_img/second.jpg"></image>
+</view>
+<view class='bottom'>
+  <view class='jiacu'>天宇油茶</view>
+  <view>极具广西特色的油茶小吃。和广东的早茶有些类似，不少广西人也喜欢早上来到油茶店里，点上一碗油茶几个点心，悠闲的聊聊天，但是口味甚至菜品却和广东早茶完全不同</view>
+  <view>一碗混合着花生的炒米，撒上一把小葱段，浇上由茶叶、蒜米油炸过加水打成汤汁的油茶，最后在撒上一小撮画龙点睛的盐巴，看似常见普通常见的食材却意外的产生了独特的化学反应。搭配上两块与油茶绝配的芋头糕或者艾叶粑，或者一盘卤味，即使一天舟车劳顿，也可以半血复活。</view>
+  <view>温馨提示：如果喜欢人少一些，不妨下午甚至晚餐时间来到油茶店.</view>
+  <image src="/images/logo/first_page_img/2-2.jpg" class='img'></image>
+
+  <view class='jiacu'>明桂米粉&崇善米粉</view>
+  <image src="/images/logo/first_page_img/2-3.jpg" class='img'></image>
+  <view>许多人到桂林可能下意识的寻找螺蛳粉店的踪迹，然而作为柳州特产的螺蛳粉，其实是不能完全代表桂林的粉文化的。或许每一个桂林人心目中都有属于他最爱的米粉店，然而却是桂林的大街小巷许多连锁的明桂米粉，彻底让我这个从不吃粉的指南君，接受并爱上了粉这种食物。</view>
+  <image src="/images/logo/first_page_img/2-4.jpg" class='img' ></image>
+
+  <view>卤菜粉实际上更接近与干拌粉，软糯热乎乎的米粉搭配上桂林传统的各式卤味，加上一勺酸豇豆与米粉下卤菜的卤汁搅拌混合均匀，吃完粉后在加喝上一碗骨头汤，这就是正宗卤菜粉的吃法。</view>
+  
+  <view class='jiacu'>龙脊梯田</view>
+  <view>桂林极具代表性的喀斯特地貌，使得平原成为了最珍贵的稀缺资源，人的居住用地与田地之间的矛盾尤为突出。但是充满智慧当地人却利用了山坡上几米宽的平地，养育一代又一代的子子孙孙。</view>
+  <image src="/images/logo/first_page_img/2-6.jpg" class='img'></image>
+  <view>乘坐前往金佛顶的缆车则可以在空中的角度俯瞰整个龙脊梯田的壮美，村寨中的独居壮族特色的竹制吊脚楼也独有一番风味。</view>
+  <image src="/images/logo/first_page_img/2-5.jpg" class='img'></image>
+  
+  <view class='jiacu'>兴坪</view>
+  <image src="/images/logo/first_page_img/2-7.jpg" class='img'></image>
+  <view>或许你不知道兴坪在哪里，但是提到 20 元人民币上的出处，你一定不会陌生。相比于阳朔城区内十里画廊景区（真的很坑），我更推荐兴坪古镇。除了可以一览桂林山水中最精华的部分以外，也可以感受在山水之间，乘坐一叶竹筏，顺流而下的意境。</view>
+  
+  
+  
+  
+
+</view>

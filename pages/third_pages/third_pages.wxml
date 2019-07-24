@@ -1,0 +1,57 @@
+<!--pages/third_pages/third_pages.wxml-->
+<view class='login'>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='btn_login'> 请登录 </button>
+    <block wx:else>
+      <view class='set'>
+          <view>
+            <open-data bindtap="bindViewTap" class="userinfo-avatar" type="userAvatarUrl" mode="cover"></open-data>
+            <!-- <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> -->
+          </view>
+          <view class='nick'>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </view>
+        <view>
+          <image src='/images/logo/set.png' class='bbb' catchtap='setting'></image>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+<view class='my_collect'>
+  <view class='coll_title'>
+    <image src='/images/logo/mycollect.png' class='coll_title_img'></image>
+    <text class='coll_title_text'>我的收藏</text>
+  </view>
+  <view class='classify'>
+    <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">美食收藏</view>
+    <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">景点收藏</view>
+  </view>
+  <view class='hr'></view>
+  <swiper current="{{currentTab}}" style="height:1000px ">
+    <swiper-item>
+      <view>
+        <block wx:for="{{ttt}}" wx:key="key">
+          <view class='content_food' catchtap='food_intro' data-post-id="{{item.f_id}}">
+            <view class='food_pic'>
+              <image src='{{item.f_pic}}' class='p_pic'></image>
+            </view>
+            <view class='food_name'>{{item.f_name}}</view>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <block wx:for="{{ppp}}" wx:key="key">
+          <view class='content_food' catchtap='place_intro' data-post-id="{{item.p_id}}">
+            <view class='food_pic'>
+              <image src='{{item.p_pic}}' class='p_pic'></image>
+            </view>
+            <view class='food_name'>{{item.p_name}}</view>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

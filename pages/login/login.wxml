@@ -1,0 +1,29 @@
+<!--pages/login/login.wxml-->
+<view class='top_logo'>
+  <view class='logo'></view>
+</view>
+<form bindsubmit='login_submit'>
+<view class='middle_login'>
+  <view class='account'>
+    <view class='title'>账号:</view>
+    <view  class='num'><input bindinput='accountInput' placeholder="请输入手机号" name = "name_enter"  placeholder-style="color:#999999;"></input></view>
+  </view>
+  <view class='hr'></view>
+  <view class='pwd'>
+    <view class='title'>密码:</view>
+    <view  class='num'>
+    <input  placeholder="请输入密码  " password="{{pdpwd}}" name="pwd_enter"  placeholder-style="color:#999999;" bindblur="pwdBlur"></input>
+    <switch class='switch_pwd'   name = "switch_name" bindchange="switch_tap"  checked='{{checked1}}'></switch>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>
+<button class='bottom_enter' disabled="{{disabled}}" type="{{btnstate}}" form-type = "submit" bindtap='login'>登录</button>
+</form>
+<view class='registe'>
+  <view class='registe_left'>没有账号？</view>
+  <view class='registe_right'>
+  <navigator url="../registe/registe" hover-class="hover_registe">注册</navigator>
+  </view>
+</view>
+

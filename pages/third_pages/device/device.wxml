@@ -1,0 +1,57 @@
+<!--pages/third_pages/device/device.wxml-->
+<view class='bottom'>
+  <view class='unimportant'></view>
+  <block wx:for="{{phoneInfo}}" wx:key="key">
+    <view class='bottom_detail'>
+      <view class='ls'>
+        <view class='ls_left'>
+          <text>{{item.key}}</text>
+        </view>
+        <view class='ls_right'>
+          <text>{{item.val}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='hr'></view>
+  </block>
+  <view class='unimportant'></view>
+  <block wx:for="{{weChatInfo}}" wx:key="key">
+    <view class='bottom_detail'>
+      <view class='ls'>
+        <view class='ls_left'>
+          <text>{{item.key}}</text>
+        </view>
+        <view class='ls_right'>
+          <text>{{item.val}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='hr'></view>
+  </block>
+  <view class='unimportant'></view>
+  <block wx:for="{{screenInfo}}" wx:key="key">
+    <view class='bottom_detail'>
+      <view class='ls'>
+        <view class='ls_left'>
+          <text>{{item.key}}</text>
+        </view>
+        <view class='ls_right'>
+          <text>{{item.val}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='hr'></view>
+  </block>
+  <view class='unimportant'></view>
+  <view class='bottom_detail'>
+    <view class='ls'>
+      <view class='ls_left'>
+        <text>网络状态</text>
+      </view>
+      <view class='ls_right'>
+        <text>{{val}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>

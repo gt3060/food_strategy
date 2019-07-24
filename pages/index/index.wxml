@@ -1,0 +1,45 @@
+<!--pages/index/index.wxml-->
+<view class='place'>
+  <view class='place_top'>每一天·旅行地</view>
+  <view>
+    <view class='place_bottom'>
+      <view>
+        <text class='m_bbt' catchtap='place_tap'>{{postname}}</text>
+      </view>
+      <image src="/images/logo/arrows_new.png" class='ls'></image>
+    </view>
+  </view>
+</view>
+<view class='content'>
+  <view class='classify'>
+    <view class="{{currentTab==0?'select':'default'}}"  data-current="0" bindtap="switchNav">地方美食</view>
+    <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">旅游景点</view>
+  </view>
+  <view class='hr'></view>
+  <swiper current="{{currentTab}}" style="height:{{winHeight}}px ">
+    <swiper-item>
+      <view>
+        <block wx:for="{{ttt}}" wx:key="key">
+          <view class='content_food' catchtap='food_intro' data-post-id="{{item.f_id}}">
+            <view class='food_pic'>
+              <image src='{{item.f_pic}}' class='p_pic'></image>
+            </view>
+            <view class='food_name'>{{item.f_name}}</view>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <block wx:for="{{ppp}}" wx:key="key">
+          <view class='content_food' catchtap='place_intro' data-post-id="{{item.p_id}}">
+            <view class='food_pic'>
+              <image src='{{item.p_pic}}' class='p_pic'></image>
+            </view>
+            <view class='food_name'>{{item.p_name}}</view>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

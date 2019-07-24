@@ -1,0 +1,52 @@
+<!--pages/first_pages/first_pages.wxml-->
+<view class='place'>
+  <view class='place_top'>每一天·旅行地</view>
+  <view class='place_bottom_ls'>
+    <view class='place_bottom'>
+      <input class='m_bbt' placeholder-class='plhStyle' type='number' maxlength='50' placeholder='' bindinput="bindKeyInput" value='{{city}}' disabled catchtap='place_tap'></input>
+      <image src="/images/logo/arrows_new.png" class='ls'></image>
+    </view>
+  </view>
+
+</view>
+<view class='top'>
+  <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}" catchtap="word">
+      <swiper-item >
+        <image src="/images/logo/first_page_img/first.jpg"  class="slide-image" data-id="1"></image>
+      </swiper-item>
+      <swiper-item >
+        <image src="/images/logo/first_page_img/second.jpg"  class="slide-image" data-id="2"></image>
+      </swiper-item>
+      <swiper-item >
+        <image src="/images/logo/first_page_img/third.jpg"  class="slide-image" data-id="3"></image>
+      </swiper-item>
+      <swiper-item >
+        <image src="/images/logo/first_page_img/fifth.jpg"  class="slide-image" data-id="4"></image>
+      </swiper-item>
+  </swiper>
+</view>
+<view class='middle_jc'>
+  <view class='middle_text'>
+    <view class='middle_text_left'>当季热门目的地</view>
+  </view>
+  <view class='middle_nr'>
+    <block wx:for="{{navs}}" wx:key="key" >
+      <view class='middle_nr_p' catchtap="navBtn" id="{{index}} "   data-post-name="{{item.name}}"  data-post-id="{{item.id}}">
+        <view >
+          <image src="{{item.img}}" style="width:78px;height:79px;margin-right:10px;" class='radiu_img'></image>
+        </view>
+        <view>{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+  <view class='middle_nr'>
+    <block wx:for="{{navs2}}" wx:key="key">
+      <view class='middle_nr_p' catchtap="navBtn" id="{{index}}"  data-post-name="{{item.name}}"  data-post-id="{{item.id}}">
+        <view>
+          <image src="{{item.img}}" style="width:78px;height:79px;" class='radiu_img'></image>
+        </view>
+        <view>{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+</view>
